@@ -27,8 +27,8 @@ Automates the complete setup of a local Kubernetes development environment on ma
 - Automatic troubleshooting when setup fails
 
 **Quick Start:**
-```bash
-claude plugin install team-plugins/k8s-local-setup
+```
+/plugin marketplace add TakiTake/team-plugins
 /k8s-local-setup:setup-all
 ```
 
@@ -36,13 +36,16 @@ claude plugin install team-plugins/k8s-local-setup
 
 ## Installation
 
-### Install from Repository
+**Option 1: Install from marketplace**
+
+Start Claude Code. Run:
+```
+/plugin marketplace add TakiTake/team-plugins
+```
+
+**Option 2: Use locally during development**
 
 ```bash
-# Install specific plugin
-claude plugin install team-plugins/k8s-local-setup
-
-# Or clone and use locally during development
 git clone https://github.com/TakiTake/team-plugins.git
 claude --plugin-dir ./team-plugins/k8s-local-setup
 ```

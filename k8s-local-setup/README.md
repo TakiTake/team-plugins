@@ -31,12 +31,17 @@ This Claude Code plugin helps engineers onboard to your team by automating the s
 
 ## Installation
 
-```bash
-# Install the plugin
-cc plugin install k8s-local-setup
+**Option 1: Install from marketplace**
 
-# Or use locally during development
-cc --plugin-dir /path/to/k8s-local-setup
+Start Claude Code. Run:
+```
+/plugin marketplace add TakiTake/team-plugins
+```
+
+**Option 2: Use locally during development**
+
+```bash
+claude --plugin-dir /path/to/k8s-local-setup
 ```
 
 ## Quick Start
