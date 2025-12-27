@@ -1,0 +1,23 @@
+# Claude Code local settings
+.claude/*.local.md
+.claude/settings.local.json
+
+# Local configuration
+.config/local/
+
+# Node modules (if any scripts use Node)
+node_modules/
+
+# Python cache (if any scripts use Python)
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

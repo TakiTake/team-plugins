@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "team-plugins",
+  "description": "Util plugins for onboarding new member",
+  "owner": {
+    "name": "TakiTake",
+    "email": "takitake.create@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "k8s-local-setup",
+      "description": "Automate local Kubernetes development environment setup on Mac with Docker (lima), kind, and Istio. Perfect for onboarding new engineers to your team.",
+      "version": "0.1.0",
+      "author": {
+        "name": "TakiTake"
+      },
+      "source": "./k8s-local-setup",
+      "category": "development"
+    }
+  ]
+}
