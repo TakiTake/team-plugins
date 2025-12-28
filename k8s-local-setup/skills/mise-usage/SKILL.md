@@ -1,7 +1,7 @@
 ---
 name: mise Usage and Version Management
 description: This skill should be used when the user needs to "install tools with mise", "manage tool versions", "create mise.toml", "update mise.local.toml", "configure mise settings", or work with mise for version management of lima, kind, kubectl, istioctl, and helm.
-version: 0.1.0
+version: 0.2.0
 ---
 
 # mise Usage and Version Management

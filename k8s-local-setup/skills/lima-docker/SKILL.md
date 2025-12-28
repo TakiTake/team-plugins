@@ -1,7 +1,7 @@
 ---
 name: Lima Docker Environment Setup
 description: This skill should be used when the user needs to "setup Docker with lima", "create lima VM", "configure lima resources", "use docker-rootful template", "setup Docker on Mac", or manage lima-based Docker environments.
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Lima Docker Environment Setup

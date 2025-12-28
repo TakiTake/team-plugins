@@ -1,7 +1,7 @@
 ---
 name: Verification Strategies for K8s Local Setup
 description: This skill should be used when the user needs to "verify Docker setup", "verify Kubernetes cluster", "verify Istio installation", "troubleshoot connectivity issues", "check application access", or comprehensively verify the local development stack.
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Verification Strategies for K8s Local Setup

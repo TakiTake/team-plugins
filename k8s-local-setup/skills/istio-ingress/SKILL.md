@@ -1,7 +1,7 @@
 ---
 name: Istio Ingress Gateway Setup
 description: This skill should be used when the user needs to "install Istio", "configure Istio ingress gateway", "setup Istio with istioctl", "create Gateway resource", "configure VirtualService for nip.io", or manage Istio for local Kubernetes.
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Istio Ingress Gateway Setup
@@ -378,6 +378,18 @@ istio:
 
 ### Remove Istio Components
 
+**Recommended approach:** Use the generated manifest file
+
+```bash
+# Delete using the manifest file (recommended)
+kubectl delete -f ./.config/local/istio.yaml
+
+# Then cleanup CRDs
+kubectl delete crd $(kubectl get crd | grep istio.io | awk '{print $1}')
+```
+
+**Alternative approaches:**
+
 ```bash
 # Delete istio-system namespace and all components
 kubectl delete namespace istio-system
@@ -386,12 +398,7 @@ kubectl delete namespace istio-system
 istioctl uninstall --purge -y
 ```
 
-### Cleanup CRDs
-
-```bash
-# Remove Istio CRDs
-kubectl delete crd $(kubectl get crd | grep istio.io | awk '{print $1}')
-```
+**Note:** Using `kubectl delete -f ./.config/local/istio.yaml` ensures you delete exactly the resources that were created during setup, making the deletion process cleaner and more predictable.
 
 ## Troubleshooting
 

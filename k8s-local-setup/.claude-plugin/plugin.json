@@ -1,0 +1,25 @@
+{
+  "name": "k8s-local-setup",
+  "version": "0.2.0",
+  "description": "Automate local Kubernetes development environment setup on Mac with Docker (lima), kind, and Istio",
+  "author": {
+    "name": "TakiTake",
+    "url": "https://github.com/TakiTake"
+  },
+  "homepage": "https://github.com/TakiTake/team-plugins/tree/main/k8s-local-setup",
+  "repository": "https://github.com/TakiTake/team-plugins",
+  "license": "MIT",
+  "keywords": [
+    "kubernetes",
+    "k8s",
+    "docker",
+    "istio",
+    "lima",
+    "kind",
+    "local-development",
+    "devops",
+    "infrastructure",
+    "mac",
+    "mise"
+  ]
+}

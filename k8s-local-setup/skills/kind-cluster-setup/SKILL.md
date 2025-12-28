@@ -1,7 +1,7 @@
 ---
 name: Kind Cluster Setup and Configuration
 description: This skill should be used when the user needs to "create kind cluster", "configure kind cluster", "fetch kubernetes versions from kind releases", "setup port mapping for kind", "manage kind configuration", or work with kind for local Kubernetes.
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Kind Cluster Setup and Configuration

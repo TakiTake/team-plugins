@@ -1,7 +1,7 @@
 ---
 name: Claude Settings Management
 description: This skill should be used when the user needs to "update Claude Code environment variables", "modify .claude/settings.local.json", "set DOCKER_CONTEXT", "configure KUBECONFIG", or manage Claude Code settings for local development environment.
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Claude Settings Management
